@@ -1,0 +1,23 @@
+Datum i vrijeme iznajmljivanja: 2024-06-01T10:00
+---------------------------------------------------------------------------------
+VOZILO
+ Id: B4
+ Vrsta: Bicikl
+---------------------------------------------------------------------------------
+KORISNIK
+ Ime: K5
+ Dokument: XM0004B6S
+ Broj vozacke dozvole: TI4NE9MHZ
+---------------------------------------------------------------------------------
+LOKACIJA
+ Pocetna lokacija: [ 7, 9 ]
+ Finalna lokacija: [ 7, 11 ]
+ Dio grada: UZI
+---------------------------------------------------------------------------------
+DETALJI
+Popust je u iznosu od 0.0. 
+Promocija je u iznosu od 0.0. 
+Na vozilu se dogodio kvar, pa je za placanje ukupno 0.0. 
+---------------------------------------------------------------------------------
+UKUPNA CIJENA
+0.0

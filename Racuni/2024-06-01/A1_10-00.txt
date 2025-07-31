@@ -1,0 +1,23 @@
+Datum i vrijeme iznajmljivanja: 2024-06-01T10:00
+---------------------------------------------------------------------------------
+VOZILO
+ Id: A1
+ Vrsta: Automobil
+---------------------------------------------------------------------------------
+KORISNIK
+ Ime: K5
+ Dokument: NVN3NJVY
+ Broj vozacke dozvole: 0ZIZJJM72
+---------------------------------------------------------------------------------
+LOKACIJA
+ Pocetna lokacija: [ 14, 17 ]
+ Finalna lokacija: [ 9, 19 ]
+ Dio grada: SIRI
+---------------------------------------------------------------------------------
+DETALJI
+Popust je u iznosu od 0.0. 
+Promocija je u iznosu od 0.0. 
+Na vozilu se dogodio kvar, pa je za placanje ukupno 0.0. 
+---------------------------------------------------------------------------------
+UKUPNA CIJENA
+0.0

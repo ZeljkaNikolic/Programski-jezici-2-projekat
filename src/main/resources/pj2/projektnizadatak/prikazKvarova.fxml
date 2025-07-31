@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pj2.projektnizadatak.KvaroviController">
+    <center>
+    <TableView fx:id="kvaroviTabela">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+        <columns>
+            <TableColumn fx:id="vrstaColumn" text="Vrsta prevoznog sredstva" />
+            <TableColumn fx:id="idColumn" text="ID" />
+            <TableColumn fx:id="vrijemeColumn" text="Vrijeme" />
+            <TableColumn fx:id="opisColumn" text="Opis kvara" />
+            <TableColumn fx:id="cijenaColumn" text="Cijena kvara" />
+        </columns>
+    </TableView>
+    </center>
+
+
+
+</BorderPane>

@@ -1,0 +1,23 @@
+Datum i vrijeme iznajmljivanja: 2024-06-01T09:00
+---------------------------------------------------------------------------------
+VOZILO
+ Id: B1
+ Vrsta: Bicikl
+---------------------------------------------------------------------------------
+KORISNIK
+ Ime: K2
+ Dokument: D9PGUWUTW
+ Broj vozacke dozvole: 5D9ZNV6QO
+---------------------------------------------------------------------------------
+LOKACIJA
+ Pocetna lokacija: [ 2, 1 ]
+ Finalna lokacija: [ 7, 13 ]
+ Dio grada: SIRI
+---------------------------------------------------------------------------------
+DETALJI
+Popust je u iznosu od 0.0. 
+Promocija je u iznosu od 40.0. 
+Na vozilu se dogodio kvar, pa je za placanje ukupno 0.0. 
+---------------------------------------------------------------------------------
+UKUPNA CIJENA
+0.0

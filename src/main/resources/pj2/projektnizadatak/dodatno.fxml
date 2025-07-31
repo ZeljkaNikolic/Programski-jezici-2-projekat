@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pj2.projektnizadatak.DodatnaFController">
+   <top>
+      <Label alignment="CENTER" text="Deserijalizovana vozila sa kvarom" BorderPane.alignment="CENTER" textFill="#00008B">
+         <font>
+            <Font name="Lucida Sans Demibold Italic" size="14.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="7.0" top="5.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <TableView fx:id="kvaroviTabela" prefHeight="340.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+          <columnResizePolicy>
+              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+          </columnResizePolicy>
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="143.0" text="ID " />
+          <TableColumn fx:id="proizvodjacColumn" minWidth="0.0" prefWidth="140.0" text="Proizvodjac" />
+            <TableColumn fx:id="modelColumn" prefWidth="154.0" text="Model" />
+            <TableColumn fx:id="cijenaColumn" minWidth="0.0" prefWidth="158.0" text="Ukupna cijena kvarova" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

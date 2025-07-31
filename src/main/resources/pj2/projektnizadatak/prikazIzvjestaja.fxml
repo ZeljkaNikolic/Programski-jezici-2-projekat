@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pj2.projektnizadatak.IzvjestajiController">
+
+    <!-- Sumarni Izvjestaj -->
+    <Label text="Sumarni izvjestaj" textFill="#00008B">
+        <font>
+            <Font name="Lucida Sans Demibold Italic" size="14.0" />
+        </font>
+      <VBox.margin>
+         <Insets top="6.0" />
+      </VBox.margin>
+    </Label>
+    <TableView fx:id="tabelaSumarni">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+        <columns>
+            <TableColumn fx:id="ukupanPrihodColumn" text="Prihod" />
+            <TableColumn fx:id="ukupanPopustColumn" text="Popust" />
+            <TableColumn fx:id="uziDioColumn" text="Uzi dio" />
+            <TableColumn fx:id="siriDioColumn" text="Siri dio" />
+            <TableColumn fx:id="odrzavanjeColumn" text="Odrzavanje" />
+            <TableColumn fx:id="trosakColumn" text="Trosak" />
+            <TableColumn fx:id="promocijaColumn" text="Promocija" />
+            <TableColumn fx:id="porezColumn" text="Porez" />
+            <TableColumn fx:id="popravkaColumn" text="Popravka" />
+        </columns>
+    </TableView>
+
+    <!-- Dnevni Izvjestaji -->
+    <Label text="Dnevni izvjestaji" textFill="#00008B">
+        <font>
+            <Font name="Lucida Sans Demibold Italic" size="14.0" />
+        </font>
+    </Label>
+    <TableView fx:id="tabelaDnevni">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+        <columns>
+            <TableColumn fx:id="datumColumn"  text="Datum" />
+            <TableColumn fx:id="prihodColumn"  text="Prihod" />
+            <TableColumn fx:id="popustColumn" text="Popust" />
+            <TableColumn fx:id="uziColumn" text="Uzi dio" />
+            <TableColumn fx:id="siriColumn" text="Siri dio" />
+            <TableColumn fx:id="odrzavanjeIColumn"  text="Odrzavanje" />
+            <TableColumn fx:id="promocijaIColumn"  text="Promocija" />
+            <TableColumn fx:id="popravkaIColumn"  text="Popravka" />
+        </columns>
+    </TableView>
+
+</VBox>

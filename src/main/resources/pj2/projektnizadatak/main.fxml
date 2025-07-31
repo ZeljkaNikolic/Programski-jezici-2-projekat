@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="mainPanel" prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pj2.projektnizadatak.GlavniController">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Opcije">
+                    <items>
+                        <MenuItem text="Vozila" onAction="#prikazVozila"/>
+                    </items>
+                    <items>
+                        <MenuItem text="Kvarovi" onAction="#prikazKvarova"/>
+                    </items>
+                    <items>
+                        <MenuItem text="Izvjestaji" onAction="#prikazIzvjestaja"/>
+                    </items>
+                    <items>
+                        <MenuItem text="Dodatna Funkcionalnost" onAction="#prikazDeserijalizacije"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+
+        <GridPane fx:id="mapa">
+            <!-- Grid će biti popunjen Label elementima u kontroleru -->
+        </GridPane>
+    </center>
+
+
+
+
+
+</BorderPane>
